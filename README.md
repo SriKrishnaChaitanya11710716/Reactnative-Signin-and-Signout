@@ -27,6 +27,23 @@ For iOS:
 
 ```
 yarn ios
+
+```
+Using NPM:
+
+First in the current folder of project:
+```
+npm install 
 ```
 
-
+Second to run metro bundler:
+```
+npx react-native start
+```
+To run Android Emulator:
+```
+npx react-native run-android
+```
+To run IOS Emulator:
+```
+npx react-native run-ios
